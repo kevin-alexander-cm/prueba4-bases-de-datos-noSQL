@@ -1,0 +1,1100 @@
+//use pruebaCuatro
+
+
+//db.createCollection("pruebas")
+
+//db.pruebas.insertMany() 
+
+
+[
+
+    //--------Arreglo 1--------- 
+    
+    { numeroServidor:"01",   
+    pais:"Afganistan",
+    totalcancionesSubidas: 90000,
+    totalVideosSubidos: 800,
+    ubicacionCiudad:"Kabul",
+     usuario:
+        [  
+         {
+            nombre:"Alexis Sanchez",
+            nickname:"alexisS", 
+            moderador:"Si",
+            numeroUsuario:1, 
+            email:"alexiss@gmail.com", 
+            fechaNacimiento: new Date("30-06-1990"),
+            fechaDeAlta: new Date("03-07-2015"),
+            pais:"Chile",
+            generoPreferencia:"Rock",
+            numeroCanciones:10,
+            edad:32,
+            fechaIngresoVideosCanciones:new Date("12-04-2018"),
+            videosSubidos:1,
+            videosQueLeGustan:2, 
+           canciones:    
+             [
+              {
+                tipoCancion:"Cancion",
+                nombreCancion:"Matador , Fabulosos Cadilacs",
+                usuarioQueLaSube:2,
+                generoCancion: "Rock",
+                cantidadVecesSubida:500,
+                cantidadVecesEscuchada: 15,     
+                videos:
+                     {
+                     tipoVideo:"Video",
+                     nombreVideo:"Matador , Fabulosos Cadilacs",
+                     numeroUsuario:2, 
+                     fechaPublicacion:new Date("01-11-2019"),
+                     visibilidad:"Publico", //publico, privado, no listado     
+                     restriccionEdad: 0, 
+                     generoVideo: "Rock",
+                     meGustas: 1000,
+                     noMeGustas: 50,
+                     cantidadVisitas: 1000000
+                     },                 
+               }
+             ]
+          }
+        ]
+    },    
+    
+    
+    //--------Arreglo 2--------- 
+    { numeroServidor: "02",
+    pais: "Belgica",
+    totalcancionesSubidas: 9000000,
+    totalVideosSubidos: 8000000,
+    ubicacionCiudad: "Brucelas",
+     usuario:
+        [  
+         {
+            nombre:"Bernardo Silva",
+            nickname: "bernarsoS", 
+            moderador:"No",
+            numero_usuario:1, 
+            email: "bernardos@gmail.com", 
+            fechaNacimiento: new Date("22-04-1970"),
+            fechaDeAlta: new Date("03-07-2013"),
+            pais: "Portugal",
+            generoPreferencia:"Rock",
+            numeroCanciones:10,
+            edad:52,
+            fechaIngresoVideosCanciones:new Date("12-04-2018"),
+            videosSubidos:1,
+            videosQueLeGustan:2, 
+           canciones:    
+             [
+              {
+                tipoCancion:"Cancion",
+                nombreCancion:"Tren Al Sur , Los Prisioneros",
+                usuarioQueLaSube:2,
+                generoCancion: "Rock",
+                cantidadVecesSubida:500,
+                cantidadVecesEscuchada: 15,     
+                videos:
+                     {
+                     tipoVideo:"Video",
+                     nombreVideo:"Tren Al Sur , Los Prisioneros",
+                     numeroUsuario:2, 
+                     fechaPublicacion:new Date("01-11-2020"),
+                     visibilidad:"Publico", //publico, privado, no listado     
+                     restriccionEdad: 0, 
+                     generoVideo: "Video",
+                     meGustas: 100,
+                     noMeGustas: 100,
+                     cantidadVisitas: 200
+                     },                 
+               }
+             ]
+          }
+        ]
+        },
+
+
+    //--------Arreglo 3--------- 
+
+        { numeroServidor: "03",   
+    pais: "Chile",
+    totalcancionesSubidas: 300000,
+    totalVideosSubidos: 1000000,
+    ubicacionCiudad: "Santiago",
+     usuario:
+        [  
+         {
+            nombre:"Camilo Moya",
+            nickname: "camiloM", 
+            moderador:"No",
+            numero_usuario:1, 
+            email: "camilom@gmail.com", 
+            fechaNacimiento: new Date("30-06-2002"),
+            fechaDeAlta: new Date("03-05-2022"),
+            pais: "Chile",
+            generoPreferencia:"Rock",
+            numeroCanciones:10,
+            edad:20,
+            fechaIngresoVideosCanciones:new Date("12-04-2016"),
+            videosSubidos:1,
+            videosQueLeGustan:2, 
+           canciones:    
+             [
+              {
+                tipoCancion:"Cancion",
+                nombreCancion:"Oh La La , David Tavare",
+                usuarioQueLaSube:2,
+                generoCancion: "Electro",
+                cantidadVecesSubida:500,
+                cantidadVecesEscuchada:15,    
+                videos:
+                     {
+                     tipoVideo:"Video",
+                     nombreVideo:"Oh La La , David Tavare",
+                     numeroUsuario:3, 
+                     fechaPublicacion:new Date("10-10-2020"),
+                     visibilidad:"Publico", //publico, privado, no listado     
+                     restriccionEdad: 0, 
+                     generoVideo: "Electro",
+                     meGustas: 500,
+                     noMeGustas: 0,
+                     cantidadVisitas: 12021012012
+                     },                 
+               }
+             ]
+          }
+        ]
+        },
+
+        //--------Arreglo 4--------- 
+
+        { numeroServidor: "04", 
+        pais: "Dinamarca",
+        totalcancionesSubidas: 101010,
+        totalVideosSubidos: 8122132,
+        ubicacionCiudad: "Copenhague",
+         usuario:
+            [  
+             {
+                nombre:"Daniel Donoso",
+                nickname: "danielD", 
+                moderador:"No",
+                numeroUsuario:4, 
+                email:"danield@gmail.com", 
+                fechaNacimiento: new Date("30-06-1980"),
+                fechaDeAlta: new Date("03-07-2014"),
+                pais: "Dinamarca",
+                generoPreferencia:"Electro",
+                numeroCanciones:40,
+                edad:42,
+                fechaIngresoVideosCanciones:new Date("12-04-2017"),
+                videosSubidos:30,
+                videosQueLeGustan:100, 
+               canciones:    
+                 [
+                  {
+                    tipoCancion:"Cancion",
+                    nombreCancion:"World Hold On",
+                    usuarioQueLaSube:4,
+                    generoCancion: "Electro",
+                    cantidadVecesSubida:100,
+                    cantidadVecesEscuchada: 50000000000,     
+                    videos:
+                         {
+                         tipoVideo:"Video",
+                         nombreVideo:"World Hold On",
+                         numeroUsuario:1, 
+                         fechaPublicacion:new Date("01-11-2019"),
+                         visibilidad:"Publico", //publico, privado, no listado     
+                         restriccionEdad: 0, 
+                         generoVideo: "Electro",
+                         meGustas: 100,
+                         noMeGustas: 5,
+                         cantidadVisitas: 1000000
+                         },                 
+                   }
+                 ]
+              }
+            ]
+        },
+
+    //--------Arreglo 5--------- 
+
+        { numeroServidor: "05", 
+    pais: "Egipto",
+    totalcancionesSubidas: 9000000,
+    totalVideosSubidos: 8000000,
+    ubicacionCiudad: "El cairo",
+
+    usuario:   
+        [  
+         {
+            nombre:"Esteban Pardo",
+            nickname:"estebanP", 
+            moderador:"Si",
+            numeroUsuario:1, 
+            email:"estebanP@gmail.com", 
+            fechaNacimiento: new Date("30-03-1985"),
+            fechaDeAlta: new Date("03-07-2022"),
+            pais: "Bolivia",
+            generoPreferencia:"Bachata",
+            numeroCanciones:10,
+            edad:37,
+            fechaIngresoVideosCanciones:new Date("10-03-2010"),
+            videosSubidos:1,
+            videosQueLeGustan:2, 
+           canciones:    
+             [
+              {
+                tipoCancion:"Cancion",
+                nombreCancion:"Crazy In Love , Beyonce",
+                usuarioQueLaSube:5,
+                generoCancion: "Pop",
+                cantidadVecesSubida:300,
+                cantidadVecesEscuchada: 1500000000,    
+                videos:
+                     {
+                     tipoVideo:"Video",
+                     nombreVideo:"Crazy In Love , Beyonce",
+                     numeroUsuario:2, 
+                     fechaPublicacion:new Date("01-11-2000"),
+                     visibilidad:"Publico", //publico, privado, no listado     
+                     restriccionEdad: 18, 
+                     generoVideo: "Pop",
+                     meGustas: 1000000,
+                     noMeGustas: 5,
+                     cantidadVisitas: 239323289
+                     },                 
+               }
+             ]
+          }
+        ]
+        },
+
+        //--------Arreglo 6--------- 
+
+
+        { numeroServidor: "06", 
+    pais: "Francia",
+    totalcancionesSubidas: 1210,
+    totalVideosSubidos: 30230,
+    ubicacionCiudad: "Montpelier",
+     usuario:
+        [  
+         {
+            nombre:"Francisco Flores",
+            nickname: "franciscoF", 
+            moderador:"Si",
+            numeroUsuario:6, 
+            email:"franciscoF@gmail.com", 
+            fechaNacimiento: new Date("30-03-1995"),
+            fechaDeAlta: new Date("03-07-2019"),
+            pais: "Chile",
+            generoPreferencia:"Reggaeton",
+            numeroCanciones:10,
+            edad:27,
+            fechaIngresoVideosCanciones:new Date("12-01-2015"),
+            videosSubidos:10,
+            videosQueLeGustan:30, 
+           canciones:    
+             [
+              {
+                tipoCancion:"Cancion",
+                nombreCancion:"Pobre Diabla , Don Omar",
+                usuarioQueLaSube:6,
+                generoCancion:"Reggaeton",
+                cantidadVecesSubida:5000,
+                cantidadVecesEscuchada: 150,    
+                videos:
+                     {
+                     tipoVideo:"Video",
+                     nombreVideo:"Pobre Diabla , Don Omar",
+                     numeroUsuario:6, 
+                     fechaPublicacion:new Date("04-6-2016"),
+                     visibilidad:"Publico", //publico, privado, no listado     
+                     restriccionEdad: 0, 
+                     generoVideo: "Reggaeton",
+                     meGustas: 100,
+                     noMeGustas: 10101010,
+                     cantidadVisitas: 100000000000000000
+                     },                 
+               }
+             ]
+          }
+        ]
+        },
+
+    //--------Arreglo 7--------- 
+
+        { numeroServidor: "07",   
+    pais: "Gales",
+    totalcancionesSubidas: 2304,
+    totalVideosSubidos: 12123,
+    ubicacionCiudad: "Cardiff",
+     usuario:
+        [  
+         {
+            nombre:"Gabriel Jorge",
+            nickname: "gabrielJ", 
+            moderador:"No",
+            numeroUsuario:7, 
+            email:"gabrielj@gmail.com", 
+            fechaNacimiento: new Date("30-06-1997"),
+            fechaDeAlta: new Date("03-07-2022"),
+            pais: "Chile",
+            generoPreferencia:"Electro",
+            numeroCanciones:10,
+            edad:25,
+            fechaIngresoVideosCanciones:new Date("12-04-2015"),
+            videosSubidos:16,
+            videosQueLeGustan:20, 
+           canciones:    
+             [
+              {
+                tipoCancion:"Cancion",
+                nombreCancion:"Stay A While , Dimitri vegas ",
+                usuarioQueLaSube:7,
+                generoCancion:"Electro",
+                cantidadVecesSubida:10,
+                cantidadVecesEscuchada: 15000,     
+                videos:
+                     {
+                     tipoVideo:"Video",
+                     nombreVideo:"Stay A while , Dimitro Vegas",
+                     numeroUsuario:7, 
+                     fechaPublicacion:new Date("01-11-2016"),
+                     visibilidad:"Publico", //publico, privado, no listado     
+                     restriccionEdad: 0, 
+                     generoVideo: "Electro",
+                     meGustas: 100000,
+                     noMeGustas: 50,
+                     cantidadVisitas: 283439489
+                     },                 
+               }
+             ]
+          }
+        ]
+        },
+
+    //--------Arreglo 8--------- 
+
+        { numeroServidor: "08", 
+    pais: "Honduras",
+    totalcancionesSubidas: 900,
+    totalVideosSubidos: 800,
+    ubicacionCiudad: "Tegusigalpa",
+     usuario:
+        [  
+         {
+            nombre:"Hugo Soto",
+            nickname: "hugoS", 
+            moderador:"No",
+            numeroUsuario:8, 
+            email:"hugoS@gmail.com", 
+            fechaNacimiento: new Date("30-06-1991"),
+            fechaDeAlta: new Date("03-07-2013"),
+            pais: "Chile",
+            generoPreferencia:"Reggae",
+            numeroCanciones:34,
+            edad:31,
+            fechaIngresoVideosCanciones:new Date("12-04-2013"),
+            videosSubidos:0,
+            videosQueLeGustan:2, 
+           canciones:    
+             [
+              {
+                tipoCancion:"Cancion",
+                nombreCancion:"Rat Race , Bob Marley",
+                usuarioQueLaSube:8,
+                generoCancion:"Reggae",
+                cantidadVecesSubida:5000,
+                cantidadVecesEscuchada:1500000000000000,      
+                videos:
+                     {
+                     tipoVideo:"Video",
+                     nombreVideo:"Rat Race , Bob Marley",
+                     numeroUsuario:8, 
+                     fechaPublicacion:new Date("01-11-2014"),
+                     visibilidad:"Publico", //publico, privado, no listado     
+                     restriccionEdad: 0, 
+                     generoVideo: "Reggae",
+                     meGustas: 100000000,
+                     noMeGustas: 1,
+                     cantidadVisitas: 1000000000000000
+                     },                 
+               }
+             ]
+          }
+        ]
+        },
+
+    //--------Arreglo 9--------- 
+
+        { numeroServidor: "09",  
+    pais: "India",
+    totalcancionesSubidas: 9023,
+    totalVideosSubidos: 8000000,
+    ubicacionCiudad: "Bangladesh",
+     usuario:
+        [  
+         {
+            nombre:"Ignacio Vargas",
+            nickname: "ignacioV", 
+            moderador:"Si",
+            numeroUsuario:1, 
+            email:"ignacioV@gmail.com", 
+            fechaNacimiento: new Date("30-06-1981"),
+            fechaDeAlta: new Date("03-07-2016"),
+            pais: "Brazil",
+            generoPreferencia:"Euro",
+            numeroCanciones:10,
+            edad:41,
+            fechaIngresoVideosCanciones:new Date("12-04-2017"),
+            videosSubidos:5,
+            videosQueLeGustan:20, 
+           canciones:    
+             [
+              {
+                tipoCancion:"Cancion",
+                nombreCancion:"Time To Pretend , Mgtm",
+                usuarioQueLaSube:9,
+                generoCancion:"Euro",
+                cantidadVecesSubida:5000,
+                cantidadVecesEscuchada: 1500132032032,     
+                videos:
+                     {
+                     tipoVideo:"Video",
+                     nombreVideo:"Only Love  , Pitbull",
+                     numeroUsuario:9, 
+                     fechaPublicacion:new Date("01-11-2021"),
+                     visibilidad:"Privado", //publico, privado, no listado     
+                     restriccionEdad: 18, 
+                     generoVideo: "Pop",
+                     meGustas: 1000,
+                     noMeGustas: 500000,
+                     cantidadVisitas: 1000000000
+                     },                 
+               }
+             ]
+          }
+        ]
+        },
+
+        //--------Arreglo 10--------- 
+
+        { numeroServidor: "010", 
+    pais: "Jamaica",
+    totalcancionesSubidas: 923323,
+    totalVideosSubidos: 12213,
+    ubicacionCiudad: "Kingston",
+     usuario:
+        [  
+         {
+            nombre:"Javier Jara",
+            nickname: "javierJ", 
+            moderador:"Si",
+            numeroUsuario:1, 
+            email:"javierj@gmail.com", 
+            fechaNacimiento: new Date("23-03-1999"),
+            fechaDeAlta: new Date("03-07-2017"),
+            pais: "Argentina",
+            generoPreferencia:"Rock",
+            numeroCanciones:100,
+            edad:23,
+            fechaIngresoVideosCanciones:new Date("12-04-2018"),
+            videosSubidos:100,
+            videosQueLeGustan:2000, 
+           canciones:    
+             [
+              {
+                tipoCancion:"Cancion",
+                nombreCancion:"Strutter , Kiss",
+                usuarioQueLaSube:10,
+                generoCancion: "Rock",
+                cantidadVecesSubida:5000,
+                cantidadVecesEscuchada: 15000000,    
+                videos:
+                     {
+                     tipoVideo:"Video",
+                     nombreVideo:"Strutter , Kiss",
+                     numeroUsuario:10, 
+                     fechaPublicacion:new Date("01-11-2019"),
+                     visibilidad:"Publico", //publico, privado, no listado     
+                     restriccionEdad: 18, 
+                     generoVideo: "Rock",
+                     meGustas: 100000,
+                     noMeGustas: 12,
+                     cantidadVisitas: 48534959
+                     },                 
+               }
+             ]
+          }
+        ]
+        },
+
+//--------Arreglo 11--------- 
+
+        { numeroServidor: "011", 
+    pais: "Kazajistan",
+    totalcancionesSubidas: 9000000,
+    totalVideosSubidos: 8000000,
+    ubicacionCiudad: "Nursultan",
+     usuario:
+        [  
+         {
+            nombre:"Kevin Berserker",
+            nickname: "kevinB", 
+            moderador:"Si",
+            numeroUsuario:11, 
+            email:"kevinb@gmail.com", 
+            fechaNacimiento: new Date("22-06-1997"),
+            fechaDeAlta: new Date("03-07-2022"),
+            pais: "Chile",
+            generoPreferencia:"Rock",
+            numeroCanciones:15,
+            edad:25,
+            fechaIngresoVideosCanciones:new Date("12-04-2019"),
+            videosSubidos:100,
+            videosQueLeGustan:200, 
+            canciones:    
+             [
+              {
+                tipoCancion:"Cancion",
+                nombreCancion:"California Love , 2pac",
+                usuarioQueLaSube:11,
+                generoCancion: "Hip Hop",
+                cantidadVecesSubida:10,
+                cantidadVecesEscuchada: 1500000,     
+                videos:
+                     {
+                     tipoVideo:"Video",
+                     nombreVideo:"California Love , 2pac",
+                     numeroUsuario:11, 
+                     fechaPublicacion:new Date("01-11-2020"),
+                     visibilidad:"Privado", //publico, privado, no listado     
+                     restriccionEdad: 18, 
+                     generoVideo: "Hip Hop",
+                     meGustas: 10000000,
+                     noMeGustas: 1000,
+                     cantidadVisitas: 29932393933434 
+                     },                 
+               }
+             ]
+          }
+        ]
+        },
+
+       //--------Arreglo 12---------  
+
+        { numeroServidor: "12", 
+    pais: "Luxemburgo",
+    totalcancionesSubidas: 121313,
+    totalVideosSubidos: 23234322,
+    ubicacionCiudad: "Luxemburgo",
+     usuario:
+        [  
+         {
+            nombre:"Luis Landa",
+            nickname:"luisL", 
+            moderador:"SI",
+            numeroUsuario:12, 
+            email:"luisl@gmail.com", 
+            fechaNacimiento: new Date("30-06-1980"),
+            fechaDeAlta: new Date("03-07-2012"),
+            pais: "Francia",
+            generoPreferencia:"Reggaeton",
+            numeroCanciones:100,
+            edad:42,
+            fechaIngresoVideosCanciones:new Date("12-04-2019"),
+            videosSubidos:10,
+            videosQueLeGustan:20, 
+           canciones:    
+             [
+              {
+                tipoCancion:"Cancion",
+                nombreCancion:"Discoteca , Jowell Y Randy",
+                usuarioQueLaSube:12,
+                generoCancion:"Reggaeton",
+                cantidadVecesSubida:50,
+                cantidadVecesEscuchada: 15000000,     //*** */ 
+                videos:
+                     {
+                     tipoVideo:"Video",
+                     nombreVideo:"Discoteca , Jowell Y Randy",
+                     numeroUsuario:12, 
+                     fechaPublicacion:new Date("01-11-2020"),
+                     visibilidad:"Privado", //publico, privado, no listado     
+                     restriccionEdad: 18, 
+                     generoVideo:"Reggaeton",
+                     meGustas: 100000,
+                     noMeGustas: 50,
+                     cantidadVisitas: 1000000000
+                     },                 
+               }
+             ]
+          }
+        ]
+        },
+    //--------Arreglo 13--------- 
+
+        { numeroServidor: "013", 
+    pais: "Marruecos",
+    totalcancionesSubidas: 9000000,
+    totalVideosSubidos: 8000000,
+    ubicacionCiudad: "Rabat",
+     usuario:
+        [  
+         {
+            nombre:"Matias Morales",
+            nickname: "matiasM", 
+            moderador:"Si",
+            numeroUsuario:12, 
+            email:"matiasm@gmail.com", 
+            fechaNacimiento: new Date("30-06-1985"),
+            fechaDeAlta: new Date("03-07-2015"),
+            pais: "Marruecos",
+            generoPreferencia:"Rock",
+            numeroCanciones:10,
+            edad:37,
+            fechaIngresoVideosCanciones:new Date("12-04-2017"),
+            videosSubidos:1,
+            videosQueLeGustan:2, 
+           canciones:    
+             [
+              {
+                tipoCancion:"Cancion",
+                nombreCancion:"One , Metallica",
+                usuarioQueLaSube:13,
+                generoCancion:"Rock",
+                cantidadVecesSubida:50,
+                cantidadVecesEscuchada: 100905,     
+                videos:
+                     {
+                     tipoVideo:"Video",
+                     nombreVideo:"One , Metallica",
+                     numeroUsuario:13, 
+                     fechaPublicacion:new Date("03-11-2018"),
+                     visibilidad:"Publico", //publico, privado, no listado     
+                     restriccionEdad: 0, 
+                     generoVideo: "Rock",
+                     meGustas: 1232483232,
+                     noMeGustas: 5,
+                     cantidadVisitas: 100000032940938
+                     },                 
+               }
+             ]
+          }
+        ]
+        },
+
+    //--------Arreglo 14--------- 
+
+        { numeroServidor: "14", //arrelo 14
+    pais: "Polonia",
+    totalcancionesSubidas: 9000000,
+    totalVideosSubidos: 8000000,
+    ubicacionCiudad: "Varsovia",
+     usuario:
+        [  
+         {
+            nombre:"Patricio Pato",
+            nickname: "patricioP", 
+            moderador:"Si",
+            numerousuario:14, 
+            email:"patriciop@gmail.com", 
+            fechaNacimiento: new Date("30-06-1999"),
+            fechaDeAlta: new Date("03-07-2019"),
+            pais: "Polonia",
+            generoPreferencia:"Euro",
+            numeroCanciones:10,
+            edad:23,
+            fechaIngresoVideosCanciones:new Date("12-04-2020"),
+            videosSubidos:3,
+            videosQueLeGustan:200, 
+           canciones:    
+             [
+              {
+                tipoCancion:"Cancion",
+                nombreCancion:"Somebody to love , Dj Bobo",
+                usuarioQueLaSube:14,
+                generoCancion:"Euro",
+                cantidadVecesSubida:30,
+                cantidadVecesEscuchada: 15000000,     
+                videos:
+                     {
+                     tipoVideo:"Video",
+                     nombreVideo:"Antonia , Gondwana",
+                     numeroUsuario:14, 
+                     fechaPublicacion:new Date("01-11-2021"),
+                     visibilidad:"Publico", //publico, privado, no listado     
+                     restriccionEdad: 0, 
+                     generoVideo: "Reggae",
+                     meGustas: 1000,
+                     noMeGustas: 50,
+                     cantidadVisitas: 1000000
+                     },                 
+               }
+             ]
+          }
+        ]
+        },
+
+        //--------Arreglo 15--------- 
+
+        { numeroServidor: "015", 
+        pais: "Mongolia",
+        totalcancionesSubidas: 9000000,
+        totalVideosSubidos: 8000000,
+        ubicacionCiudad: "Ulan Bator",
+         usuario:
+            [  
+             {
+                nombre:"Marcelo Salas",
+                nickname: "marceloS", 
+                moderador:"No",
+                numerousuario:15, 
+                email:"marceloS@gmail.com", 
+                fechaNacimiento: new Date("30-06-1995"),
+                fechaDeAlta: new Date("03-07-2020"),
+                pais: "Argentina",
+                generoPreferencia:"Cumbia",
+                numeroCanciones:100,
+                edad:27,
+                fechaIngresoVideosCanciones:new Date("12-04-2016"),
+                videosSubidos:10,
+                videosQueLeGustan:200, 
+               canciones:    
+                 [
+                  {
+                    tipoCancion:"Cancion",
+                    nombreCancion:"Somebody To Love , Dj Bobo",
+                    usuarioQueLaSube:15,
+                    generoCancion:"Euro",
+                    cantidadVecesSubida:2,
+                    cantidadVecesEscuchada: 150,    
+                    videos:
+                         {
+                         tipoVideo:"Video",
+                         nombreVideo:"Somebody To Love , Dj Bobo",
+                         numeroUsuario:15, 
+                         fechaPublicacion:new Date("01-11-2017"),
+                         visibilidad:"Publico", //publico, privado, no listado     
+                         restriccionEdad: 0, 
+                         generoVideo: "Euro",
+                         meGustas: 1000,
+                         noMeGustas: 50,
+                         cantidadVisitas: 10000000
+                         },                 
+                   }
+                 ]
+              }
+            ]
+        },
+
+    //--------Arreglo 16--------- 
+
+        { numeroServidor: "016", 
+    pais: "Holanda",
+    totalcancionesSubidas: 9000000,
+    totalVideosSubidos: 8000000,
+    ubicacionCiudad: "Amsterdam",
+     usuario:
+        [  
+         {
+            nombre:"Joaquin Newman",
+            nickname: "joaquinM", 
+            moderador:"No",
+            numeroUsuario:16, 
+            email:"joaquinn@gmail.com", 
+            fechaNacimiento: new Date("30-06-2000"),
+            fechaDeAlta: new Date("03-07-2018"),
+            pais:"Holanda",
+            generoPreferencia:"Reggaeton",
+            numeroCanciones:100,
+            edad:22,
+            fechaIngresoVideosCanciones:new Date("12-04-2019"),
+            videosSubidos:1,
+            videosQueLeGustan:2, 
+           canciones:    
+             [
+              {
+                tipoCancion:"Cancion",
+                nombreCancion:"High love , Wopa Wopa",
+                usuarioQueLaSube:16,
+                generoCancion: "Reggae",
+                cantidadVecesSubida:5,
+                cantidadVecesEscuchada: 15000,     
+                videos:
+                     {
+                     tipoVideo:"Video",
+                     nombreVideo:"Los Gatos Negros , Endo",
+                     numeroUsuario:16, 
+                     fechaPublicacion:new Date("01-11-2020"),
+                     visibilidad:"Privado", //publico, privado, no listado     
+                     restriccionEdad: 18, 
+                     generoVideo: "Reggaeton",
+                     meGustas: 900,
+                     noMeGustas: 500,
+                     cantidadVisitas: 10000
+                     },                 
+               }
+             ]
+          }
+        ]
+        },
+
+        //--------Arreglo 17--------- 
+
+        { numeroServidor: "017", 
+    pais: "Argentina",
+    totalcancionesSubidas: 9000000,
+    totalVideosSubidos: 8000000,
+    ubicacionCiudad: "Buenos Aires",
+     usuario:
+        [  
+         {
+            nombre:"Angela Quilodran",
+            nickname: "angelaQ", 
+            moderador:"No",
+            numeroUsuario:17, 
+            email:"angelaq@gmail.com", 
+            fechaNacimiento: new Date("30-06-1998"),
+            fechaDeAlta: new Date("03-07-2014"),
+            pais:"Chile",
+            generoPreferencia:"Rock",
+            numeroCanciones:10,
+            edad:24,
+            fechaIngresoVideosCanciones:new Date("12-04-2015"),
+            videosSubidos:10,
+            videosQueLeGustan:20000, 
+           canciones:    
+             [
+              {
+                tipoCancion:"Cancion",
+                nombreCancion:"One , Metallica",
+                usuarioQueLaSube:2,
+                generoCancion: "Rock",
+                cantidadVecesSubida:5000,
+                cantidadVecesEscuchada: 15,     
+                videos:
+                     {
+                     tipoVideo:"Video",
+                     nombreVideo:"One , Metallica",
+                     numeroUsuario:17, 
+                     fechaPublicacion:new Date("01-11-2019"),
+                     visibilidad:"Publico", //publico, privado, no listado     
+                     restriccionEdad: 0, 
+                     generoVideo: "Rock",
+                     meGustas: 100000000,
+                     noMeGustas: 23,
+                     cantidadVisitas: 100000000000000
+                     },                 
+               }
+             ]
+          }
+        ]
+        },
+
+        //--------Arreglo 18--------- 
+
+        { numeroServidor: "018", 
+        pais:"Portugal",
+        totalcancionesSubidas: 9000000,
+        totalVideosSubidos: 8000000,
+        ubicacionCiudad: "Nazaret",
+         usuario:
+            [  
+             {
+                nombre:"Martin Odeegard",
+                nickname:"martinO", 
+                moderador:"Si",
+                numeroUsuario:18, 
+                email:"martino@gmail.com", 
+                fechaNacimiento: new Date("30-06-1991"),
+                fechaDeAlta: new Date("03-07-2020"),
+                pais:"Bolivia",
+                generoPreferencia:"Cumbias",
+                numeroCanciones:10,
+                edad:31,
+                fechaIngresoVideosCanciones:new Date("12-04-2020"),
+                videosSubidos:10,
+                videosQueLeGustan:25, 
+               canciones:    
+                 [
+                  {
+                    tipoCancion:"Cancion",
+                    nombreCancion:"Miño , Los Bunkers",
+                    usuarioQueLaSube:2,
+                    generoCancion:"Reggaeton",
+                    cantidadVecesSubida:5000,
+                    cantidadVecesEscuchada: 150,     
+                    videos:
+                         {
+                         tipoVideo:"Video",
+                         nombreVideo:"Miño , Los Bunkers",
+                         numeroUsuario:18, 
+                         fechaPublicacion:new Date("05-10-2021"),
+                         visibilidad:"Publico", //publico, privado, no listado     
+                         restriccionEdad: 0, 
+                         generoVideo: "Rock",
+                         meGustas: 1000,
+                         noMeGustas: 5,
+                         cantidadVisitas: 1000000
+                         },                 
+                   }
+                 ]
+              }
+            ]
+        },
+
+        //--------Arreglo 19--------- 
+
+        { numeroServidor: "019", 
+    pais:"Brazil",
+    totalcancionesSubidas: 9000000,
+    totalVideosSubidos: 8000000,
+    ubicacionCiudad:"Rio De Janeiro",
+     usuario:
+        [  
+         {
+            nombre:"Camila Parra",
+            nickname:"camilaP", 
+            moderador:"Si",
+            numeroUsuario:19, 
+            email:"camilap@gmail.com", 
+            fechaNacimiento: new Date("30-06-1980"),
+            fechaDeAlta: new Date("03-07-2022"),
+            pais:"Chile",
+            generoPreferencia:"Rock",
+            numeroCanciones:10,
+            edad:42,
+            fechaIngresoVideosCanciones:new Date("12-04-2014"),
+            videosSubidos:1,
+            videosQueLeGustan:200, 
+           canciones:    
+             [
+              {
+                tipoCancion:"Cancion",
+                nombreCancion:"One , Metallica",
+                usuarioQueLaSube:19,
+                generoCancion: "Rock",
+                cantidadVecesSubida:5000,
+                cantidadVecesEscuchada: 15000,     
+                videos:
+                     {
+                     tipoVideo:"Video",
+                     nombreVideo:"One , Metallica",
+                     numeroUsuario:19, 
+                     fechaPublicacion:new Date("01-11-2016"),
+                     visibilidad:"Publico", //publico, privado, no listado     
+                     restriccionEdad: 0, 
+                     generoVideo:"Rock",
+                     meGustas: 1000,
+                     noMeGustas: 5,
+                     cantidadVisitas: 1000000
+                     },                 
+               }
+             ]
+          }
+        ]
+        },
+
+        //--------Arreglo 20--------- 
+
+        { numeroServidor: "020", 
+    pais:"Irlanda Del Norte ",
+    totalcancionesSubidas: 9000000,
+    totalVideosSubidos: 8000000,
+    ubicacionCiudad:"Dublin",
+     usuario:
+        [  
+         {
+            nombre:"Conor Mcgregor",
+            nickname: "conorM", 
+            moderador:"Si",
+            numeroUsuario:20, 
+            email:"conorm@gmail.com", 
+            fechaNacimiento: new Date("30-06-2011"),
+            fechaDeAlta: new Date("03-07-2020"),
+            pais: "Irlanda Del Norte",
+            generoPreferencia:"Hip Hop",
+            numeroCanciones:100,
+            edad:13,
+            fechaIngresoVideosCanciones:new Date("12-04-2021"),
+            videosSubidos:1,
+            videosQueLeGustan:20, 
+           canciones:    
+             [
+              {
+                tipoCancion:"Cancion",
+                nombreCancion:"Manifiesto , Victor Jara",
+                usuarioQueLaSube:20,
+                generoCancion:"Rock",
+                cantidadVecesSubida:500,
+                cantidadVecesEscuchada: 150304430340,     
+                videos:
+                     {
+                     tipoVideo:"Video",
+                     nombreVideo:"Manifiesto , Victor Jara",
+                     numeroUsuario:20, 
+                     fechaPublicacion:new Date("07-09-2021"),
+                     visibilidad:"Publico", //publico, privado, no listado     
+                     restriccionEdad: 0, 
+                     generoVideo: "Rock",
+                     meGustas: 100,
+                     noMeGustas: 5,
+                     cantidadVisitas: 1000000
+                     },                 
+               }
+             ]
+          }
+        ]
+        },
+]
+
+
+//1-¿Cuál es la cantidad de videos subidos por 1 usuario (puede utilizar el usuario que estime conveniente)?
+//Respuesta db.pruebas.find({$and: [{"usuario.nombre":"Alexis Sanchez"}, {"usuario.videosSubidos":{$gte:1}} ]}).count()
+
+//2-¿Cuál es la cantidad de videos subidos por un género de interés (puede utilizar el género que estime conveniente)?
+//Respuesta db.pruebas.find({"usuario.canciones.videos.generoVideo":"Rock"}).itcount()
+
+//3-¿Cuántas canciones se han subido?
+//Respuesta db.pruebas.aggregate([{$group: {_id: null,totalQty: { $sum: '$numeroCanciones' },},},]);
+
+//4-¿Cuántos usuarios tienen menos de un año de antigüedad?
+//Respuesta db.pruebas.find({$and: [{"usuario.numeroUsuario":{$gte:1}}, {"usuario.fechaDeAlta":{$lte: new Date("2021-07-18")}} ]}).itcount()
+
+//5-¿Cuántos usuarios tienen menos de un año de antigüedad?
+//Respuesta db.pruebas.find({$and: [{"usuario.numeroUsuario":{$gte:1}}, {"usuario.fechaDeAlta":{$gt: new Date("2021-07-18")}} ]}).count()
+
+//6-¿Cuántos moderadores hay en la plataforma?
+//Respuesta db.pruebas.find({"usuario.moderador": "Si"}).count()
+
+//7-¿Cuántos videos con calificación para mayores de 18 hay en la plataforma?
+//Respuesta db.pruebas.find({"usuario.canciones.videos.restriccionEdad":{$eq:18}}).itcount()
+
+//8-¿Cuántas canciones hay en un género (puede utilizar el género que estime conveniente)?
+// Respuesta db.pruebas.find( { $and: [ {"usuario.canciones.tipoCancion" :"Cancion"  }, { "usuario.canciones.generoCancion":"Rock"  } ] } ).itcount()
+
+//9-¿Cuáles son los videos publicados hasta el 31 de diciembre de 2020?
+// Respuesta db.pruebas.find({$and: [{"usuario.canciones.videos.tipoVideo":"Video"},{"usuario.canciones.videos.fechaPublicacion":{$lte: new Date("2020-12-31")}} ]}).itcount()
+
+//10-¿Cuántos usuarios registrados son menores de 13 años?
+//Respuesta db.pruebas.find({"usuario.edad":{$eq:13}}).itcount()
+
+//11-Modifique la fecha de todos los videos indicando que la fecha es el 1 de octubre de 2020 cuando estos videos sean anteriores al 30 de septiembre de 2020.
+//Respuesta db.pruebas.updateMany({"usuario.canciones.videos.fechaPublicacion":new Date("1990-11-01")}, {$set:{"usuario.canciones.videos.fechaPublicacion": new Date("2020-10-01")}})
+
+//12-Modifique la cantidad de me gusta de los videos aumentando el valor en 350.
+//Respuesta db.pruebas.updateMany({videosQueLeGustan:{$exists:true}} , {$inc:{videosQueLeGustan:350}})
+
+//13-Elimine todos los videos que tengan una calificación para mayores de 18.
+//Respuesta db.pruebas.deleteMany({"usuario.canciones.videos.restriccionEdad":{$eq:18}})
+
+//14-Elimine a todos los usuarios que tengan menos de 13 años.
+//Respuesta db.pruebas.deleteMany({"usuario.edad":{$lte:13}})
+
+
+
+
+
